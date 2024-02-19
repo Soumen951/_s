@@ -1,0 +1,7 @@
+$ composer lint:wpc
+> @php ./vendor/squizlabs/php_codesniffer/bin/phpcs
+....E.. 7 / 7 (100%)
+FOUND 5 ERRORS AFFECTING 4 LINES
+------------------------------------------------------------------------------------------------------------------------
+  8 | ERROR | "namespace" keyword is not present in PHP version 5.2 or earlier
+    |       | (PHPCompatibility.Keywords.NewKeywords.t_namespaceFound)
